@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: grey;
+}
+.text{
+    width: 100%;
+    height: 150px;
+    padding-top: 20px;
+    margin-left: 10px;
+    
+}
+.container{
+    border: 1px solid yellow;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 250px;
+    background-color: grey;
+    margin-left: 10px;
+}
+.boxa{
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    color: black;
+    font-size: 20px;
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.boxb{
+    width: 200px;
+    height: 250px;
+    background-color: orange;
+    color: black;
+    font-size: 20px;
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-left: 10px;
+}
